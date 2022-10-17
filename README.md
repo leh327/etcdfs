@@ -36,12 +36,13 @@ $ code mnt
 
 #### `curl | bash` style downloads to `/usr/local/bin`
 ```bash
-$ curl -sfL https://raw.githubusercontent.com/leh327/etcdfs/master/.godownloader.sh | bash -s -- -d -b /usr/local/bin
+$ curl -sfL https://raw.githubusercontent.com/polyrabbit/etcdfs/master/.godownloader.sh | bash -s -- -d -b /usr/local/bin
 ```
 
 #### Using [Go](https://golang.org/)
 ```bash
-$ go get -u github.com/leh327/etcdfs
+snap install go (make sure the go version is 1.16 or later - 1.18 is the current stable version as of 2022/10/17)
+$ go install github.com/polyrabbit/etcdfs@master
 ```
 
 ## Usage
