@@ -5,7 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/polyrabbit/my-token/pulls)
 [![Go Report Card](https://goreportcard.com/badge/github.com/polyrabbit/etcdfs)](https://goreportcard.com/report/github.com/polyrabbit/etcdfs)
 
-[中文简介](https://blog.betacat.io/post/2020/08/how-to-mount-etcd-as-a-filesystem/)
+[blog: how to mount etcd as a filesystem](https://blog.betacat.io/post/2020/08/how-to-mount-etcd-as-a-filesystem/)
 
 Tired of typing `etcdctl`? why not mount it to local filesystem and open in your favorite editors?
 
@@ -36,19 +36,19 @@ $ code mnt
 
 #### `curl | bash` style downloads to `/usr/local/bin`
 ```bash
-$ curl -sfL https://raw.githubusercontent.com/polyrabbit/etcdfs/master/.godownloader.sh | bash -s -- -d -b /usr/local/bin
+$ curl -sfL https://raw.githubusercontent.com/leh327/etcdfs/master/.godownloader.sh | bash -s -- -d -b /usr/local/bin
 ```
 
 #### Using [Go](https://golang.org/)
 ```bash
-$ go get -u github.com/polyrabbit/etcdfs
+$ go get -u github.com/leh327/etcdfs
 ```
 
 ## Usage
 
 ```bash
 $ etcdfs
-Mount etcd to local file system - find help/update from https://github.com/polyrabbit/etcdfs
+Mount etcd to local file system - find help/update from https://github.com/leh327/etcdfs
 
 Usage:
   etcdfs [mount-point] [flags]
